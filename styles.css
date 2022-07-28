@@ -1,0 +1,32 @@
+
+
+.belowInfo {
+   color: aliceblue;
+}
+
+.card{
+    margin-top: 10px;
+
+}
+
+h1 {
+    color: aliceblue;
+}
+
+ol {
+    list-style: none;
+    counter-reset: item;
+  }
+  li {
+    counter-increment: item;
+    margin-bottom: 5px;
+  }
+  li:before {
+    margin-right: 10px;
+    content: counter(item);
+    background: rgb(110, 111, 111); 
+    border-radius: 0;
+    color: white;
+    width: 3rem;
+  }
+   
